@@ -6,25 +6,24 @@ export default function Skills() {
     opacity: '1'}
   return (
     <>
-    
     <div className='row mt-5 text-white'>
-        <div className='col-lg-12'></div>
-        <h3>Technical Skills</h3>
+        <div className='col-lg-12'>
+          <h3>Technical Skills</h3>
          <hr className='my-4' style={styles} />
          <ul className="list-none text-lg">
         <li className="flex items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
-          <strong className='mr-1'>Languages:</strong> JavaScript, HTML, CSS, SQL, Sass
+          <strong className='mr-1'>Languages:</strong> JavaScript, HTML, CSS, Sass
         </li>
         <li className="flex items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Frameworks and libraries:</strong> 
-          React, Nodejs, Nextjs, jQuery, lodash, Axios 
+          React, Nodejs, Nextjs, lodash, Axios 
         </li>
         <li className="flex items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Cloud computing services:</strong> 
-          
+           Firebase, Codespace
         </li>
         <li className="flex items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
@@ -38,7 +37,8 @@ export default function Skills() {
         </li>
       </ul>
     </div>
+        </div>
+        
     </>
-   
   )
 }

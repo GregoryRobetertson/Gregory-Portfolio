@@ -18,6 +18,25 @@
 
 - Start on skills and create projects components
 
+## Day 2 Log
+
+### Tasks Completed
+
+- Skills section.
+- Completed Projects section.
+
+### Challenges and Solutions
+
+- None.
+
+### Learnings and Insights
+
+- Refresh on passing props
+
+### Next Steps
+- Create contact component
+- Create footer component
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
