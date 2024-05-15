@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function About() {
@@ -20,7 +21,11 @@ marginLeft: 'calc(-.5 * var(--bs-gutter-x))'}
 </div>
     
     <hr style={styles} />
-    <p >I am deeply committed to crafting responsive, user-friendly, and visually captivating web applications tailored to address real-world challenges and align precisely with client specifications. Proficient in both dynamic website construction and the development of intricate web applications, I relish the opportunity to tackle complex problems head-on, leveraging innovative solutions. With a certification from Codex Academy, I possess a robust foundation of expertise and skills essential for full stack development. I stay updated with the latest developments, innovations, and trends in the field of web development. This implies that I continuously seek out new knowledge, techniques, and technologies to ensure that my skills and expertise are current and relevant in the rapidly evolving landscape of the industry. By doing so, I position myself as a competitive and knowledgeable professional who can deliver cutting-edge solutions to clients.</p>
+    <div className='flex gap-5'>
+       <p  className='text-xl'>I am deeply committed to crafting responsive, user-friendly, and visually captivating web applications tailored to address real-world challenges and align precisely with client specifications. Proficient in both dynamic website construction and the development of intricate web applications, I relish the opportunity to tackle complex problems head-on, leveraging innovative solutions. With a certification from Codex Academy, I possess a robust foundation of expertise and skills essential for full stack development. I stay updated with the latest developments, innovations, and trends in the field of web development. This implies that I continuously seek out new knowledge, techniques, and technologies to ensure that my skills and expertise are current and relevant in the rapidly evolving landscape of the industry. By doing so, I position myself as a competitive and knowledgeable professional who can deliver cutting-edge solutions to clients.</p>
+   <Image  src='/profile.JPG' alt="profile picture" height="200" width="325" objectFit='cover'/>
+    </div>
+   
     </div>
     </>
     
