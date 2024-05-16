@@ -1,3 +1,4 @@
+![alt text](image.png)
 ## Day 1 Log
 
 ### Tasks Completed
@@ -36,6 +37,25 @@
 ### Next Steps
 - Create contact component
 - Create footer component
+
+## Day 2 Log
+
+### Tasks Completed
+
+- Create contact component.
+- Create footer component.
+
+### Challenges and Solutions
+
+- None.
+
+### Learnings and Insights
+
+- How to navigate to another section on the same page.
+
+### Next Steps
+- Set up a way to send a message using the form
+- Update and finish styling
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

@@ -9,7 +9,7 @@ export default function Hero() {
     <p>As a software developer, I design, code, test, and maintain software applications or systems to meet specific requirements and improve functionality.</p>
     <div>
         <a className='btn btn-primary me-2' href="">Resume</a>
-        <a  className='btn btn-secondary ' href="">Contact Me</a>
+        <a  className='btn btn-secondary ' href="#contact">Contact Me</a>
     </div>
 </div>
     </div>

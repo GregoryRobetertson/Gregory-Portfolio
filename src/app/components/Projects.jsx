@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+import { Image } from "react-bootstrap";
 
 export default function Projects({title, text, src, link}) {
   const styles = {
@@ -14,32 +12,17 @@ export default function Projects({title, text, src, link}) {
   return (
     <>
       {console.log(title,text,src,link)}
-      <div className="container mx-auto py-8">
-        <Row xs={1} md={2} lg={3} className="g-4">
-          <Col>
-            <Card className="w-full h-full bg-transparent">
-              <Card.Img
-                variant="top"
-                src={src}
-                alt={title}
-                className="h-96 object-cover"
-              />
-              <Card.Body className="text-white">
-                <Card.Title>{title}</Card.Title>
-                <Card.Text>
-                 {text}
-                </Card.Text>
-                <Button
-                  href={link}
-                  variant="primary"
-                >
-                  View More
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+      
+      <div className="flex flex-col max-w-sm rounded overflow-hidden shadow-lg m-4 text-white ">
+      <Image src={src} alt={title} className="w-full" />
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2">{title}</div>
+        <p>{text}</p>
       </div>
+      <div className="px-6 py-4">
+        <a href={link} className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded no-underline">Visit</a>
+      </div>
+    </div>
     </>
   );
 }
