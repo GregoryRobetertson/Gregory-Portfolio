@@ -38,7 +38,7 @@
 - Create contact component
 - Create footer component
 
-## Day 2 Log
+## Day 3 Log
 
 ### Tasks Completed
 
@@ -56,6 +56,22 @@
 ### Next Steps
 - Set up a way to send a message using the form
 - Update and finish styling
+
+## Day 4 Log 
+
+### Tasks Completed
+
+- Set up a way to receive emails.
+- Changed styles.
+
+### Challenges and Solutions
+
+- Emails template wasn't right. I fixedd it by changing my email template on emailjs
+
+### Learnings and Insights
+
+- Discovered emailjs
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
