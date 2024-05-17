@@ -7,9 +7,16 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const styles = {
+    color: "#fff", /* Text color */
+    textShadow: `0 0 20px rgba(255, 255, 255, 0.5), /* White glow with reduced opacity */
+                 0 0 0px rgba(255, 255, 255, 0.5), /* Increase the blur and size slightly */
+                 0 0 0px rgba(255, 255, 255, 0.5)` /* Further increase the blur and size */
+  };
+  
   return (
     <html lang="en">
-      <body className="bg-violet-950 text-white">{children}</body>
+      <body  style={styles} className="antialiased bg-gradient-to-br from-blue-900 to-rose-900 text-white">{children}</body>
     </html>
   );
 }

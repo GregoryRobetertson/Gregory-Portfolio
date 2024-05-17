@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <>
     
-    <div className='row mt-5 text-white ' id='skills'>
+    <div className='row mt-5 text-white md:mb-24'  id='skills'>
         <div className='col-lg-12'>
           <h3>Technical Skills</h3>
          <hr className='my-4' style={styles} />
@@ -34,7 +34,7 @@ export default function Skills() {
         <li className="flex items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Other tools:</strong> 
-       OAuth, GitHub, VS Code, Netlify
+       OAuth, GitHub, VS Code, Netlify, Emailjs
         </li>
       </ul>
     </div>
