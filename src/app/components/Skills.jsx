@@ -7,31 +7,31 @@ export default function Skills() {
   return (
     <>
     
-    <div className='row mt-5 text-white md:mb-24'  id='skills'>
+    <div className='row  text-white md:mb-24'  id='skills'>
         <div className='col-lg-12'>
-          <h3>Technical Skills</h3>
+          <h3 className='pl-5 text-4xl'>Technical Skills</h3>
          <hr className='my-4' style={styles} />
-         <ul className="list-none text-lg">
-        <li className="flex items-center">
+         <ul className="list-none border-box text-lg">
+        <li className="items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Languages:</strong> JavaScript, HTML, CSS, Sass
         </li>
-        <li className="flex items-center">
+        <li className="items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Frameworks and libraries:</strong> 
           React, Nodejs, Nextjs, lodash, Axios 
         </li>
-        <li className="flex items-center">
+        <li className= "items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Cloud computing services:</strong> 
            Firebase, Codespace
         </li>
-        <li className="flex items-center">
+        <li className="items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Front-end tools:</strong> 
           Bootstrap, Sass, Figma, Lighthouse, Jest
         </li>
-        <li className="flex items-center">
+        <li className="items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Other tools:</strong> 
        OAuth, GitHub, VS Code, Netlify, Emailjs

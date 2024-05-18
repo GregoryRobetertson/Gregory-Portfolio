@@ -13,7 +13,7 @@ export default function Projects({ title, text, src, link }) {
     <>
       {console.log(title, text, src, link)}
 
-      <div className="flex flex-col max-w-sm  justify-between rounded overflow-hidden shadow-lg m-4 text-white ">
+      <div className="flex row flex-col max-w-sm flex-wrap justify-between rounded overflow-hidden shadow-lg text-white">
         <Image src={src} alt={title} className="w-full" />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{title}</div>
