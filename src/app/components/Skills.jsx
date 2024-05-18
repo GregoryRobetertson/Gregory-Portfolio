@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <>
     
-    <div className='row  text-white md:mb-24'  id='skills'>
+    <div className='row mt-5 text-white md:mb-24'  id='skills'>
         <div className='col-lg-12'>
           <h3 className='pl-5 text-4xl'>Technical Skills</h3>
          <hr className='my-4' style={styles} />
