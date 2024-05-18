@@ -25,7 +25,7 @@ export default function Contact() {
     opacity: "1",
   };
   return (
-    <div className="col-lg-12" id="contact">
+    <div className="col-lg-1 mt-5" id="contact">
       <h2>Reach Out!</h2>
       <hr className="my-4" style={styles} />
       <p>
