@@ -40,6 +40,12 @@ export default function Cards() {
             src='/snakeiogame.png'
             link='https://snakeiogame.netlify.app/'
           />
+          <Projects
+            title="Sunrise Sip"
+            text='A full Stack Coffee shop ecommerce site with responsive design'
+            src='sunrisesip.png'
+            link='https://sunrisesip.netlify.app'
+          />
          
         </div>
       </div>
