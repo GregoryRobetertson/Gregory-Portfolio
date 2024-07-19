@@ -19,12 +19,12 @@ export default function Skills() {
         <li className="items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Frameworks and libraries:</strong> 
-          React, Nodejs, Nextjs, lodash, Axios 
+          React, Nodejs, Nextjs, lodash, Axios, expressJS
         </li>
         <li className= "items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Cloud computing services:</strong> 
-           Firebase, Codespace
+           Firebase, Codespace, AWS, mongoDB
         </li>
         <li className="items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
