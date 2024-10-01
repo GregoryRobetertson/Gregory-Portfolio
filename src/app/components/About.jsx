@@ -19,16 +19,13 @@ export default function About() {
         <hr style={styles} />
         <div className="flex flex-col md:flex-row gap-5">
           <p className="text-base">
-            I'm deeply committed to creating websites and web applications,
-            visually appealing, and tailored to meet specific client needs. I'm
-            skilled in both building dynamic websites and developing complex web
-            applications, and I love taking on challenging problems and finding
-            creative solutions. With the skills I've gained from Codex Academy,,
-            I have a strong foundation in full stack development. I make sure to
-            stay up-to-date with the latest trends in web development, always
-            seeking out new knowledge and techniques to keep my skills relevant
-            in this fast-changing industry. This helps me stay competitive and
-            capable of delivering the latest solutions to my clients.
+          I’m a passionate Full Stack Developer with experience in crafting engaging and efficient web applications. My expertise spans a diverse array of technologies, including JavaScript, React, Node.js, and SQL, allowing me to build robust solutions from the ground up.
+
+          I love the challenge of turning complex problems into user-friendly designs and seamless functionalities. With a strong focus on both front-end aesthetics and back-end performance, I aim to create applications that not only look great but also deliver exceptional user experiences.
+          
+          Collaboration is key to my approach; I enjoy working with cross-functional teams to bring ideas to life and ensure that projects align with business goals. I’m always eager to learn and explore new technologies, keeping my skills sharp and my projects innovative.
+          
+          Take a look at my work, and feel free to reach out if you’d like to connect or discuss potential collaborations!
           </p>
           <Image
             src="/profile.JPG"

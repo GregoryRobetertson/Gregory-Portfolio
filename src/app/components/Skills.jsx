@@ -24,7 +24,7 @@ export default function Skills() {
         <li className= "items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
           <strong className='mr-1'>Cloud computing services:</strong> 
-           Firebase, Codespace, AWS, mongoDB
+           Firebase, Codespace, mongoDB
         </li>
         <li className="items-center">
           <span className="mr-2 text-white text-2xl">&#8226;</span>
