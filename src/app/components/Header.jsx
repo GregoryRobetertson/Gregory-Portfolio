@@ -17,7 +17,7 @@ export default function Header() {
             <Nav.Link href="#skills" className="text-white px-4 py-2 hover:bg-violet-800">Skills</Nav.Link>
             <Nav.Link href="#projects" className="text-white px-4 py-2 hover:bg-violet-800">Projects</Nav.Link>
             <Nav.Link href="#contact" className="text-white px-4 py-2 hover:bg-violet-800">Contact</Nav.Link>
-            <Nav.Link href="" className="text-white px-4 py-2 hover:bg-violet-800">Resume</Nav.Link>
+            <Nav.Link href="/Gregory_Robertson_Resume.pdf" className="text-white px-4 py-2 hover:bg-violet-800">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

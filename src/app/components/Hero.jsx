@@ -8,7 +8,7 @@ export default function Hero() {
         <p className='mt-2 md:mt-4 text-xl'>I am a Full Stack developer.</p>
         <p className='mt-2 md:mt-4 text-lg'>As a developer, I design, code, test, and maintain software applications or systems to meet specific requirements and improve functionality.</p>
         <div className='mt-4 md:mt-8'>
-          <a className='btn btn-primary me-2' href="">Resume</a>
+          <a className='btn btn-primary me-2' href="/Gregory_Robertson_Resume.pdf">Resume</a>
           <a className='btn btn-secondary' href="#contact">Contact Me</a>
         </div>
       </div>
